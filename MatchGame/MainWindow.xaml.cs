@@ -43,6 +43,7 @@ namespace MatchGame
             };
 
             Random random = new Random();
+            // test
 
             foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>()) {
                 int index = random.Next(animalEmoji.Count);
